@@ -5,6 +5,8 @@ Simple navigation toolbar for Leaflet.
 
 Demo: http://davidchouse.github.io/Leaflet.NavBar/
 
+![Leaflet.NavBar Screenshot](./screenshot.png)
+
 <a name="using" />
 ## Using the plugin
 
