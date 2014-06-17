@@ -6,11 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Leaflet.NavBar Demo</title>
   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+  <link rel="stylesheet" href="./Leaflet.NavBar.css" />
 </head>
 <body>
   <div id="map" style="height:800px;"></div>
 
   <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  <script src="./Leaflet.NavBar.js"></script>
 
   <script type="text/javascript">
 
@@ -19,7 +21,7 @@
     });
     var map = L.map('map').addLayer(osm).setView([39,-77], 10);
 
-    // L.control.navbar().addTo(map);
+    L.control.navbar().addTo(map);
   </script>
 </body>
 </html>
