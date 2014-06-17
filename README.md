@@ -20,4 +20,4 @@ Options for initialising the Leaflet.NavBar control.
 | --- | --- | --- | ---
 | position | String | `'topleft'` | The initial position of the control.
 | center | `L.LatLng` | Map's Current Position | The center point for the home view.
-| zoom | Number | `false` | The zoom value for the home view.
+| zoom | Number | `0` | The zoom value for the home view.
