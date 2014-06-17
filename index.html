@@ -1,1 +1,25 @@
-Leaflet.NavBar
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leaflet.NavBar Demo</title>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+</head>
+<body>
+  <div id="map" style="height:800px;"></div>
+
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+  <script type="text/javascript">
+
+    var osm = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: 'Map data &copy; 2013 OpenStreetMap contributors',
+    });
+    var map = L.map('map').addLayer(osm).setView([39,-77], 10);
+
+    // L.control.navbar().addTo(map);
+  </script>
+</body>
+</html>
