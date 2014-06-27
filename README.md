@@ -10,7 +10,7 @@ Demo: http://davidchouse.github.io/Leaflet.NavBar/
 <a name="using" />
 ## Using the plugin
 
-The default state for the control is just below the zoom control. This will allow map users to navigat forward and back in the map's view history as well as navigate to a home view.
+The default state for the control is just below the zoom control. This will allow map users to navigate forward and back in the map's view history as well as navigate to a home view.
 
 ````js
 L.control.navbar().addTo(map);
