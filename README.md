@@ -7,6 +7,11 @@ Demo: http://davidchouse.github.io/Leaflet.NavBar/
 
 ![Leaflet.NavBar Screenshot](./screenshot.png)
 
+## Install via Bower
+````js
+bower install leaflet-navbar
+````
+
 <a name="using" />
 ## Using the plugin
 
