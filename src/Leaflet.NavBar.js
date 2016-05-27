@@ -8,6 +8,7 @@
       position: 'topleft',
       //center:,
       //zoom :,
+      //bbox:, //Alternative to center/zoom for home button, takes precedence if included
       forwardTitle: 'Go forward in map view history',
       backTitle: 'Go back in map view history',
       homeTitle: 'Go to home map view'
@@ -49,6 +50,13 @@
     },
 
     _goHome: function() {
+      if (this.options.bbox){
+        try {
+          this._map.fitBounds(this.options.bbox);
+        } catch(err){
+          this._map.setView(this.options.center, this.options.zoom); //Use default if invalid bbox input.
+        }
+      }
       this._map.setView(this.options.center, this.options.zoom);
     },
 
