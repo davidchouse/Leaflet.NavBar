@@ -6,7 +6,10 @@
     "David C."
   ],
   "description": "Simple navigation toolbar for Leaflet.",
-  "main": "src/Leaflet.NavBar.js",
+  "main": [
+      "src/Leaflet.NavBar.js",
+      "src/Leaflet.NavBar.css"
+  ],
   "keywords": [
     "leaflet"
   ],
