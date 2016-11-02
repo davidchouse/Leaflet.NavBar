@@ -23,7 +23,7 @@
       if (!this.options.zoom) {
         this.options.zoom = map.getZoom();
       }
-      options = this.options;
+      var options = this.options;
 
       // Create toolbar
       var controlName = 'leaflet-control-navbar',
